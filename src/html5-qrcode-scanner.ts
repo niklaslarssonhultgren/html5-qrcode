@@ -504,9 +504,6 @@ export class Html5QrcodeScanner {
     private setupInitialDashboard(dashboard: HTMLElement) {
         this.createSection(dashboard);
         this.createSectionControlPanel();
-        if (this.scanTypeSelector.hasMoreThanOneScanType()) {
-            this.createSectionSwap();
-        }
     }
 
     private createHeader(dashboard: HTMLElement) {
